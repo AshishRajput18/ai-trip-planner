@@ -6,6 +6,5 @@ langchain-community
 litellm
 python-dotenv
 duckduckgo-search
-ddgs
 chromadb==0.4.24
-pydantic<2
+pydantic>=2.4.2
