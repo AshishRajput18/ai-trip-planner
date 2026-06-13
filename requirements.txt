@@ -1,6 +1,6 @@
 streamlit==1.36.0
 
-crewai==0.11.2
+crewai
 crewai-tools
 
 langchain
