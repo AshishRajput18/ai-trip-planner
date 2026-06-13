@@ -1,7 +1,6 @@
 streamlit==1.36.0
 
-crewai
-crewai-tools
+crewai[tools]
 
 langchain
 langchain-community
@@ -11,7 +10,6 @@ litellm>=1.44.22
 python-dotenv
 
 duckduckgo-search
-ddgs
 
 chromadb==0.4.24
 
