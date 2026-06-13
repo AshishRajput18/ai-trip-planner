@@ -3,20 +3,21 @@ streamlit==1.36.0
 crewai==0.80.0
 crewai-tools==0.76.0
 
-langchain
-langchain-community
-litellm
+langchain==0.2.14
+langchain-community==0.2.12
+litellm==1.44.0
 
-python-dotenv
+python-dotenv==1.0.1
 
-duckduckgo-search
-ddgs
+duckduckgo-search==6.3.0
+ddgs==9.14.4
 
 chromadb==0.4.24
 
-pydantic>=2.4.2
+pydantic>=2.7.0,<3
 
-numpy<2
+numpy==1.26.4
 
 setuptools>=70.0.0
+wheel
 rich
