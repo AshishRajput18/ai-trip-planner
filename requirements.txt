@@ -1,23 +1,23 @@
 streamlit==1.36.0
 
-setuptools>=70.0.0
-wheel
-
-crewai[tools]
-
-litellm>=1.44.22
+crewai
+crewai-tools
 
 langchain
 langchain-community
+litellm
 
 python-dotenv
 
 duckduckgo-search
+ddgs
 
 chromadb==0.4.24
 
 pydantic>=2.4.2
 
 numpy<2
+
+setuptools
 
 rich
