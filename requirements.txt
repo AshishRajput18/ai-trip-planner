@@ -1,11 +1,25 @@
+# streamlit
+# crewai
+# crewai-tools
+# langchain
+# langchain-community
+# langchain-groq
+# duckduckgo-search
+# pysqlite3-binary
+# litellm
+# setuptools>=70.0.0
+# wheel
 streamlit
 crewai
 crewai-tools
+litellm
+
 langchain
 langchain-community
 langchain-groq
+
 duckduckgo-search
 pysqlite3-binary
-litellm
-setuptools>=70.0.0
+
+setuptools
 wheel
