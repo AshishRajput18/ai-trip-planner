@@ -1,9 +1,7 @@
 import streamlit as st
-
 from crew.trip_crew import create_trip_crew
 
-
-# Streamlit UI
+# UI
 st.title("🌍 AI-Powered Trip Planner")
 
 st.markdown("""
@@ -28,7 +26,6 @@ interests = st.text_area(
     "sightseeing and food"
 )
 
-
 # Button
 if st.button("🚀 Generate Travel Plan"):
 
@@ -38,7 +35,6 @@ if st.button("🚀 Generate Travel Plan"):
 
         st.info("⏳ AI is planning your trip... please wait")
 
-        # Create Crew
         crew = create_trip_crew(
             from_city=from_city,
             destination_city=destination_city,
@@ -47,14 +43,11 @@ if st.button("🚀 Generate Travel Plan"):
             date_to=str(date_to)
         )
 
-        # Run CrewAI
         result = crew.kickoff()
 
-        # Output
         st.subheader("✅ Your Travel Plan")
         st.markdown(str(result))
 
-        # Download button
         st.download_button(
             label="📥 Download Travel Plan",
             data=str(result),

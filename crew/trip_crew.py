@@ -21,7 +21,7 @@ def create_trip_crew(
         date_to
 ):
 
-    # Create Tasks
+    # ---------------- TASKS ----------------
 
     location = location_task(
         agent=location_expert,
@@ -48,7 +48,7 @@ def create_trip_crew(
         date_to=date_to
     )
 
-    # Create Crew
+    # ---------------- CREW ----------------
 
     crew = Crew(
         agents=[
@@ -62,9 +62,7 @@ def create_trip_crew(
             planner
         ],
         process=Process.sequential,
-        verbose=True,
-        full_output=True,
-        share_crew=False
+        verbose=True
     )
 
     return crew
