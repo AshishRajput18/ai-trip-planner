@@ -1,10 +1,12 @@
 streamlit
-crewai
+crewai==0.76.9
 crewai-tools
 langchain
 langchain-community
 langchain-groq
+groq
 duckduckgo-search
 pysqlite3-binary
 setuptools>=70.0.0
 wheel
+litellm==1.44.0
