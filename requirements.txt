@@ -6,6 +6,6 @@ langchain-community
 langchain-groq
 duckduckgo-search
 pysqlite3-binary
-litellm
+litellm==1.44.1
 setuptools>=70.0.0
 wheel
